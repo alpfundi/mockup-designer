@@ -1,175 +1,175 @@
 usemockups.fixtures.toolbox = [
     {
-        "name":"button",
-        "category":"form",
-        "template":"#button-template",
-        "attributes":[
+        "name": "button",
+        "category": "form",
+        "template": "#button-template",
+        "attributes": [
             {
-                "name":"text",
-                "default":"Button"
+                "name": "text",
+                "default": "Button"
             },
             {
-                "name":"width",
-                "default":80
+                "name": "width",
+                "default": 80
             }
         ]
     },
     {
-        "name":"checkbox",
-        "category":"form",
-        "template":"#checkbox-template",
-        "attributes":[
+        "name": "checkbox",
+        "category": "form",
+        "template": "#checkbox-template",
+        "attributes": [
             {
-                "name":"checked",
-                "type":"boolean",
-                "default":true
+                "name": "checked",
+                "type": "boolean",
+                "default": true
             },
             {
-                "name":"text",
-                "type":"string",
-                "default":"Label"
+                "name": "text",
+                "type": "string",
+                "default": "Label"
             }
         ]
     },
     {
-        "name":"combobox",
-        "category":"form",
-        "template":"#combobox-template",
-        "attributes":[
+        "name": "combobox",
+        "category": "form",
+        "template": "#combobox-template",
+        "attributes": [
             {
-                "name":"text",
-                "default":"Combobox"
+                "name": "text",
+                "default": "Combobox"
             },
             {
-                "name":"width",
-                "default":120
+                "name": "width",
+                "default": 120
             }
         ]
     },
     {
-        "name":"radio",
-        "category":"form",
-        "template":"#radio-template",
-        "attributes":[
+        "name": "radio",
+        "category": "form",
+        "template": "#radio-template",
+        "attributes": [
             {
-                "name":"checked",
-                "type":"boolean",
-                "default":true
+                "name": "checked",
+                "type": "boolean",
+                "default": true
             },
             {
-                "name":"text",
-                "type":"string",
-                "default":"Label"
+                "name": "text",
+                "type": "string",
+                "default": "Label"
             }
         ]
     },
     {
-        "name":"text",
-        "category":"form",
-        "template":"#text-template",
-        "min_height":20,
-        "attributes":[
+        "name": "text",
+        "category": "form",
+        "template": "#text-template",
+        "min_height": 20,
+        "attributes": [
             {
-                "name":"label",
-                "type":"boolean",
-                "default":true
+                "name": "label",
+                "type": "boolean",
+                "default": true
             },
             {
-                "name":"text",
-                "type":"string",
-                "default":"Label"
+                "name": "text",
+                "type": "string",
+                "default": "Label"
             },
             {
-                "name":"width",
-                "default":200
+                "name": "width",
+                "default": 200
             },
             {
-                "name":"height",
-                "default":30
+                "name": "height",
+                "default": 30
             }
         ]
     },
     {
-        "name":"heading",
-        "category":"typography",
-        "template":"#heading-template",
-        "attributes":[
+        "name": "heading",
+        "category": "typography",
+        "template": "#heading-template",
+        "attributes": [
             {
-                "name":"text",
-                "default":"Lorem ipsum dolor sit amet"
+                "name": "text",
+                "default": "Lorem ipsum dolor sit amet"
             },
             {
-                "name":"size",
-                "default":"25"
+                "name": "size",
+                "default": "25"
             },
             {
-                "name":"color",
-                "default":"black"
-            }
-        ]
-    },
-
-    {
-        "name":"paragraph",
-        "category":"typography",
-        "template":"#paragraph-template",
-        "attributes":[
-            {
-                "name":"text",
-                "default":"Lorem ipsum dolor sit amet"
-            },
-            {
-                "name":"width",
-                "default":300
-            },
-            {
-                "name":"background",
-                "default":"#dedede"
+                "name": "color",
+                "default": "black"
             }
         ]
     },
 
     {
-        "name":"label",
-        "category":"typography",
-        "template":"#label-template",
-        "attributes":[
+        "name": "paragraph",
+        "category": "typography",
+        "template": "#paragraph-template",
+        "attributes": [
             {
-                "name":"text",
-                "default":"Label"
+                "name": "text",
+                "default": "Lorem ipsum dolor sit amet"
             },
             {
-                "name":"size",
+                "name": "width",
+                "default": 300
+            },
+            {
+                "name": "background",
+                "default": "#dedede"
+            }
+        ]
+    },
+
+    {
+        "name": "label",
+        "category": "typography",
+        "template": "#label-template",
+        "attributes": [
+            {
+                "name": "text",
+                "default": "Label"
+            },
+            {
+                "name": "size",
                 "default": 18
             },
             {
-                "name":"color",
-                "default":"#383838"
+                "name": "color",
+                "default": "#383838"
             }
         ]
     },
 
     {
-        "name":"table",
-        "category":"content",
-        "template":"#table-template",
-        "attributes":[
+        "name": "table",
+        "category": "content",
+        "template": "#table-template",
+        "attributes": [
             {
-                "name":"width",
-                "default":250
+                "name": "width",
+                "default": 250
             },
             {
-                "name":"rows",
-                "default":"3"
+                "name": "rows",
+                "default": "3"
             },
             {
-                "name":"columns",
-                "default":"3"
+                "name": "columns",
+                "default": "3"
             },
             {
-                "name":"values",
-                "hidden":true,
-                "default":[
+                "name": "values",
+                "hidden": true,
+                "default": [
                     ["lorem", "ipsum", "dolor"],
                     ["sit", "amet", "lorem"],
                     ["ipsum", "dolor", "sit"]
@@ -179,69 +179,69 @@ usemockups.fixtures.toolbox = [
     },
 
     {
-        "name":"image",
-        "category":"content",
-        "template":"#image-template",
-        "attributes":[
+        "name": "image",
+        "category": "content",
+        "template": "#image-template",
+        "attributes": [
             {
-                "name":"width",
-                "default":250
+                "name": "width",
+                "default": 200
             },
             {
-                "name":"height",
-                "default":250
+                "name": "height",
+                "default": 140
             }
         ]
     },
 
     {
-        "name":"rectangle",
-        "category":"shapes",
-        "template":"#shape-template",
-        "min_height":1,
-        "min_width":1,
-        "attributes":[
+        "name": "rectangle",
+        "category": "shapes",
+        "template": "#shape-template",
+        "min_height": 1,
+        "min_width": 1,
+        "attributes": [
             {
-                "name":"width",
-                "default":250
+                "name": "width",
+                "default": 250
             },
             {
-                "name":"height",
-                "default":100
+                "name": "height",
+                "default": 100
             },
             {
-                "name":"color",
-                "default":"#dedede"
+                "name": "color",
+                "default": "#dedede"
             },
             {
-                "name":"border",
-                "default":true,
-                "type":"boolean"
+                "name": "border",
+                "default": true,
+                "type": "boolean"
             }
         ]
     },
 
     {
-        "name":"circle",
-        "category":"shapes",
-        "template":"#shape-template",
-        "attributes":[
+        "name": "circle",
+        "category": "shapes",
+        "template": "#shape-template",
+        "attributes": [
             {
-                "name":"width",
-                "default":200
+                "name": "width",
+                "default": 200
             },
             {
-                "name":"height",
-                "default":200
+                "name": "height",
+                "default": 200
             },
             {
-                "name":"color",
-                "default":"#dedede"
+                "name": "color",
+                "default": "#dedede"
             },
             {
-                "name":"border",
-                "default":true,
-                "type":"boolean"
+                "name": "border",
+                "default": true,
+                "type": "boolean"
             }
         ]
     }
