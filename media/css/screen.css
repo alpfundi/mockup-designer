@@ -4,11 +4,12 @@ body {
 
 aside {
     position: fixed;
-    width: 218px;
+    width: 180px;
     height: 100%;
     top: 0;
     background: #424241;
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-right: 5px;
     -webkit-box-shadow: 0 0 20px #818181;
 
 }
@@ -17,10 +18,13 @@ aside {
         cursor: default;
         padding: 5px 10px;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 16px;
         text-align: left;
-        color: #fff;
-        margin: 0 10px 0 5px;
+        color: #efefef;
+        margin: 0 10px 0 13px;
+        background-color: #373737;
+        border-radius: 5px;
+
     }
 
     aside .toolbox {
@@ -36,7 +40,7 @@ aside {
         font-size: 12px;
         width: 40px;
         height: 40px;
-        margin: 4px;
+        margin: 4px 6px;
         float: left;
         display: block;
         background-color: #3b3b3b;
